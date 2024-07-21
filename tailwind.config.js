@@ -12,13 +12,13 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "20px",
+      padding: "0px",
     },
     screens: {
-      "sm": "640px",
-      "md": "768px",
-      "lg": "960px",
-      "xl": "1200px",
+      "sm": "768px",
+      "md": "960px",
+      "lg": "1200px",
+      "xl": "1440px",
     },
     fontFamily:{
       primary: "var(--font-jetbrainsMono)" 
@@ -63,7 +63,7 @@ module.exports = {
         primary: '#111112',
         accent:{
           DEFAULT: '#fa974b',
-          hover: '#00e187',
+          hover: '#D98845',
         },
       },
       borderRadius: {

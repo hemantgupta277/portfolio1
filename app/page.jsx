@@ -15,7 +15,7 @@ const Home = () => {
               Hello I am <br/> <span className="text-accent">Hemant Gupta</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am Proficient in various programming languagesand technoligies.
+              I excel at crafting elegant digital experiences and I am Proficient in various programming languages and technoligies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-7">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">

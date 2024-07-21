@@ -7,7 +7,7 @@ export default function Header() {
     <header className="py-8 xl:py-12 text-white">
       <div className="container-fluid mx-8 flex justify-between items-center">
         <Link href="/">
-        <h1 className="text-4xl font-semibold">Project<span className="text-accent">.</span></h1>
+        <h1 className="text-4xl font-semibold">Portfolio<span className="text-accent">.</span></h1>
         </Link>
         
         <div className="hidden xl:flex items-center gap-8">
