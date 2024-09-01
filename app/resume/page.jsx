@@ -1,13 +1,13 @@
 "use client";
 import {FaHtml5, FaCss, FaJs, FaReact, FaLaravel, FaFigma, FaCpp, FaCss3, FaNodeJs} from "react-icons/fa";
 import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
-import { TAbs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ToolTip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 const about = {
   title: 'About Me',
-  description: 'I hve been working on multiple web projects and gained the wide knowledge to work on multiple technologies. I am a learner who seeks to learn a new thing from every opportunity and upskill myself',
+  description: 'I have been working on multiple web projects and gained the wide knowledge to work on multiple technologies. I am a learner who seeks to learn a new thing from every opportunity and upskill myself',
   info: [
     {
       fieldName: "Name",
@@ -60,7 +60,17 @@ const education = {
       institution: "University Institute of Technology, RGPV",
       degree: "B.Tech in Electronics and Communication Engineering",
       duration: "2020 - 2024"
-    }
+    },
+    {
+      institution: "Kendriya Vidyalaya, Jabalpur",
+      degree: "Higher Secondary School",
+      duration: "2020 - 2024"
+    },
+    {
+      institution: "Jawahar Navodaya Vidyalaya, Jabalpur",
+      degree: "High School",
+      duration: "2017 - 2018"
+    },
   ]
 };
 const skills = {
@@ -117,7 +127,23 @@ const Resume = () => {
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto"></div>
+      <div className="container mx-auto">
+        <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
+          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0">
+            <TabsTrigger value="experience">Experience</TabsTrigger>
+            <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="skills">Skills</TabsTrigger>
+            <TabsTrigger value="about">About Me</TabsTrigger>
+          </TabsList>
+          {/* content */}
+          <div className="min-h-[70vh] w-full">
+            <TabsContent value="experience" className="w-full">Experience</TabsContent>
+          </div>
+        </Tabs>
+      </div>
+      <div className="container mx-auto">
+        <Tabs defaultValue="experience" className="flex flex-col xl:"></Tabs>
+      </div>
     </motion.div>
   )
 }

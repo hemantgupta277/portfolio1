@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import photoReal from "../public/images/photoReal.png"
 const Photo = () => {
   return (
     <div className="w-full h-full relative">
@@ -24,7 +25,7 @@ const Photo = () => {
             }
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
-          <Image src="/images/photo-real.png" priority quality={100} fill alt="" className="object-contain" />
+          <Image src={photoReal} priority quality={100} fill alt="profile photo" className="object-contain" />
         </motion.div>
         <motion.svg className="w-[300px] h-[300px] xl:w-[506px] xl:h-[506px]" fill="transparent" viewBox="0 0 506 506" xmlns="http://www.w3.org/2000/svg">
           <motion.circle 
