@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form action="" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-accent">Let's Work Together</h3>
+              <h3 className="text-4xl text-accent">Let&apos;s Work Together</h3>
               <p className="text-white/60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat velit vero deserunt voluptatem sunt et nobis quasi, repellat ut eveniet in quidem vitae illo cupiditate, sit id molestiae culpa porro? Maxime repudiandae aliquid inventore nemo maiores aperiam, deleniti laboriosam eveniet. Ipsam ullam dolorum, mollitia quasi amet laboriosam dignissimos placeat.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <Input type="firstname" placeholder="First Name" className="rounded" style={{borderRadius:"7px"}}/>
