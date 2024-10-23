@@ -9,7 +9,7 @@ const socials = [
     },
     {
         icon: <FaLinkedinIn/>,
-        path: ''
+        path: 'https://www.linkedin.com/in/hemant-gupta-910657234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
         icon: <FaInstagram/>,

@@ -1,5 +1,5 @@
 "use client";
-import {FaHtml5, FaCss, FaJs, FaReact, FaLaravel, FaFigma, FaCpp, FaCss3, FaNodeJs, FaJava} from "react-icons/fa";
+import {FaHtml5, FaJs, FaReact, FaLaravel, FaFigma, FaCpp, FaCss3, FaNodeJs, FaJava} from "react-icons/fa";
 import {SiTailwindcss, SiNextdotjs, SiAlpinedotjs, SiMysql, SiMongodb, SiPhp, SiCplusplus, SiBootstrap} from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
